@@ -38,5 +38,3 @@ int main () {
       cout << "3. Selesai" << endl;
       cout << "Pilih opsi: ";
       cin >> pilihan;
-
-ng->jumlah = jumlah;
