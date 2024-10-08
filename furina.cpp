@@ -38,3 +38,26 @@ int main () {
       cout << "3. Selesai" << endl;
       cout << "Pilih opsi: ";
       cin >> pilihan;
+switch (pilihan) {
+         case 1:
+            masukanBarang(&daftarBarang[jumlahBarang]);
+            jumlahBarang++;
+            break;
+         case 2:
+            for (int i = 0; i < jumlahBarang; i++) {
+               inputBarang(daftarBarang[i]);
+            }
+            break;
+         case 3:
+            cout << "Keluar dari program.";
+            break;
+            default:
+            cout << "Pilihan tidak Tersedia!" << endl;
+      }
+      cout << endl;
+   }
+      while(pilihan!= 3);
+
+   return 0;
+
+}
